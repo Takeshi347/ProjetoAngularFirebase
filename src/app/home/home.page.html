@@ -1,6 +1,11 @@
 <ion-content [fullscreen]="true">
 
-    <ion-button color="secondary">Teste</ion-button>
+    <ion-row *ngFor="let produto of this.lista_compras">
+        <ion-col>Nome: {{ produto.nome  }}</ion-col>
+        <ion-col>Preço: </ion-col>
+        <ion-col>Marca: </ion-col>
+        <ion-col>Promoção: </ion-col>
+    </ion-row>
     
     
 </ion-content>
