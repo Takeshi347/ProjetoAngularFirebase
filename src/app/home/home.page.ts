@@ -12,7 +12,7 @@ import { Router } from '@angular/router';
 })
 export class HomePage {
 
-  lista_compras: object[] = [
+  lista_compras: any[] = [
     { nome: "fígado", preco:  26.0, marca: "friboi", promocao: true },
     { nome: "chocolate branco", preco: 2.50, marca: "Laka", promocao: false }, 
     { nome: "tabaco", preco: 10.0, marca: "Malboro", promocao: false },
